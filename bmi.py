@@ -1,0 +1,8 @@
+print(' welcome to BMI calculator')
+a = input(' type the height m :')
+b = input(' type the weight kg :')
+a = float(a)
+b = int(b)
+c = b/(a**2)
+c = float(c)
+print(round(c))
